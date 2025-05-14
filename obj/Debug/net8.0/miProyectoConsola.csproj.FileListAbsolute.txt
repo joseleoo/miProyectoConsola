@@ -1,0 +1,17 @@
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\miProyectoConsola.exe
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\miProyectoConsola.deps.json
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\miProyectoConsola.runtimeconfig.json
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\miProyectoConsola.dll
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\miProyectoConsola.pdb
+C:\Users\desar\Documents\miProyectoConsola\bin\Debug\net8.0\Pastel.dll
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.csproj.AssemblyReference.cache
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.AssemblyInfoInputs.cache
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.AssemblyInfo.cs
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.csproj.CoreCompileInputs.cache
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyec.0C77F28F.Up2Date
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.dll
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\refint\miProyectoConsola.dll
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.pdb
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.genruntimeconfig.cache
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\ref\miProyectoConsola.dll
