@@ -15,3 +15,4 @@ C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\refint\miProyectoCon
 C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.pdb
 C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.genruntimeconfig.cache
 C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\ref\miProyectoConsola.dll
+C:\Users\desar\Documents\miProyectoConsola\obj\Debug\net8.0\miProyectoConsola.sourcelink.json
