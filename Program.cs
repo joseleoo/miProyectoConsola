@@ -30,7 +30,7 @@ class Dog : Animal, IAnimal
 {
     public void Eat()
     {
-        Console.WriteLine("Eating purina");
+        Console.WriteLine("Eating Kibble");
     }
 
     public override void MakeSound()
@@ -42,11 +42,11 @@ class Cat : Animal, IAnimal
 {
     public void Eat()
     {
-       Console.WriteLine("eating fish");
+       Console.WriteLine("eating tuna");
     }
 
     public override void MakeSound()
     {
-        Console.WriteLine("miau");
+        Console.WriteLine("Meow");
     }
 }
