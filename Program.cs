@@ -1,52 +1,63 @@
-﻿public interface IAnimal
+﻿// Interfaz del Observador
+public interface IObserver
 {
-    public void Eat();
+    void Update(string weatherAlert);
 }
+
+// Observadores concretos (apps de usuarios)
+public class WeatherApp : IObserver
+{
+    private string user;
+
+    public WeatherApp(string user)
+    {
+        this.user = user;
+    }
+
+    public void Update(string weatherAlert)
+    {
+        Console.WriteLine($"{user} recibió alerta: {weatherAlert}");
+    }
+}
+
+// Sujeto (Servicio meteorológico)
+public class WeatherStation
+{
+    private List<IObserver> observers = new List<IObserver>();
+
+    public void Subscribe(IObserver observer)
+    {
+        observers.Add(observer);
+    }
+
+    public void Unsubscribe(IObserver observer)
+    {
+        observers.Remove(observer);
+    }
+
+    public void SendAlert(string alert)
+    {
+        foreach (var observer in observers)
+        {
+            observer.Update(alert);
+        }
+    }
+}
+
+// Programa principal
 public class Program
 {
     public static void Main()
     {
-        var animals=new List<Animal>{
-            new Dog(),
-            new Cat()
-        };
+        WeatherStation station = new WeatherStation();
 
-        foreach (var animal in animals)
-        {
-            animal.MakeSound();
-        }
+        IObserver app1 = new WeatherApp("Usuario A");
+        IObserver app2 = new WeatherApp("Usuario B");
 
-    }
-}
-public class Animal
-{
-    public virtual void MakeSound()
-    {
-        Console.WriteLine("sound");
-    }
+        station.Subscribe(app1);
+        station.Subscribe(app2);
 
-}
-class Dog : Animal, IAnimal
-{
-    public void Eat()
-    {
-        Console.WriteLine("Eating Kibble");
-    }
-
-    public override void MakeSound()
-    {
-        Console.WriteLine("bark");
-    }
-}
-class Cat : Animal, IAnimal
-{
-    public void Eat()
-    {
-       Console.WriteLine("eating tuna");
-    }
-
-    public override void MakeSound()
-    {
-        Console.WriteLine("Meow");
+        station.SendAlert("🌧️ Tormenta eléctrica en camino");
+        station.SendAlert("☀️ Ola de calor prevista para mañana");
     }
 }
