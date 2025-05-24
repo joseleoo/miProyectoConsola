@@ -1,2 +1,43 @@
+# Build results
 bin/
 obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Dotnet specific
+*.dbmdl
+*.pdb
+*.cache
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.vspscc
+*.vssscc
+_TestResults/
+*.TestResults/
+*.publish/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+obj/Debug/net8.0/miProyectoConsola.AssemblyInfo.cs
+obj/Debug/net8.0/miProyectoConsola.AssemblyInfo.cs
+obj/Debug/net8.0/miProyectoConsola.AssemblyInfoInputs.cache
